@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Resultados</h1>
+        <div class="card p-4 shadow">
+            <p><strong>Calorias Diárias Recomendadas:</strong> {{ resultados['calorias'] }} kcal</p>
+            <p><strong>Carboidratos:</strong> {{ resultados['carboidratos'] }} g</p>
+            <p><strong>Proteínas:</strong> {{ resultados['proteinas'] }} g</p>
+            <p><strong>Gorduras:</strong> {{ resultados['gorduras'] }} g</p>
+            <p class="mt-3"><strong>Ingestão de Água Diária Recomendada:</strong> {{ agua }} litros</p>
+            <a href="/" class="btn btn-secondary mt-3">Voltar</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

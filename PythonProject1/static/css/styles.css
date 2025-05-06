@@ -1,0 +1,34 @@
+body {
+    background-color: #f3e5f5; /* Fundo roxo claro */
+    color: #4a148c; /* Roxo escuro para o texto */
+}
+
+h1 {
+    color: #6a1b9a; /* Roxo médio para títulos */
+}
+
+.card {
+    background-color: #ede7f6; /* Fundo roxo muito claro para cartões */
+    border-color: #6a1b9a;
+    color: #4a148c;
+}
+
+.btn-primary {
+    background-color: #7b1fa2; /* Botão roxo médio */
+    border-color: #7b1fa2;
+}
+
+.btn-primary:hover {
+    background-color: #4a148c; /* Botão roxo mais escuro no hover */
+    border-color: #4a148c;
+}
+
+.btn-secondary {
+    background-color: #b39ddb; /* Botão roxo claro */
+    border-color: #b39ddb;
+}
+
+.btn-secondary:hover {
+    background-color: #9575cd; /* Botão roxo médio no hover */
+    border-color: #9575cd;
+}
